@@ -1,0 +1,143 @@
+[gd_scene load_steps=76 format=2]
+
+[ext_resource path="res://Personatge(jetpack)/corre/corre_10.png" type="Texture" id=1]
+[ext_resource path="res://Personatge(jetpack)/corre/corre_7.png" type="Texture" id=2]
+[ext_resource path="res://Personatge(jetpack)/corre/corre_8.png" type="Texture" id=3]
+[ext_resource path="res://Personatge(jetpack)/corre/corre_9.png" type="Texture" id=4]
+[ext_resource path="res://Personatge(jetpack)/corre/corre_14.png" type="Texture" id=5]
+[ext_resource path="res://Personatge(jetpack)/corre/corre_5.png" type="Texture" id=6]
+[ext_resource path="res://Personatge(jetpack)/corre/corre_11.png" type="Texture" id=7]
+[ext_resource path="res://Personatge(jetpack)/corre/corre_13.png" type="Texture" id=8]
+[ext_resource path="res://Personatge(jetpack)/corre/corre_6.png" type="Texture" id=9]
+[ext_resource path="res://Personatge(jetpack)/corre/corre_15.png" type="Texture" id=10]
+[ext_resource path="res://Personatge(jetpack)/corre/corre_12.png" type="Texture" id=11]
+[ext_resource path="res://Personatge(jetpack)/corre/corre_2.png" type="Texture" id=12]
+[ext_resource path="res://Personatge(jetpack)/corre/corre_3.png" type="Texture" id=13]
+[ext_resource path="res://Personatge(jetpack)/corre/corre_4.png" type="Texture" id=14]
+[ext_resource path="res://Personatge(jetpack)/corre/corre_1.png" type="Texture" id=15]
+[ext_resource path="res://Personatge(jetpack)/KinematicBody2D.gd" type="Script" id=16]
+[ext_resource path="res://Personatge(jetpack)/Quedarse quiet de peu/imageonline/42.png" type="Texture" id=17]
+[ext_resource path="res://Personatge(jetpack)/Disparar volant/ezgif.com-crop (5).png" type="Texture" id=18]
+[ext_resource path="res://Personatge(jetpack)/Disparar volant/ezgif.com-crop (14).png" type="Texture" id=19]
+[ext_resource path="res://Personatge(jetpack)/Disparar volant/ezgif.com-crop (6).png" type="Texture" id=20]
+[ext_resource path="res://Personatge(jetpack)/Disparar volant/ezgif.com-crop (8).png" type="Texture" id=21]
+[ext_resource path="res://Personatge(jetpack)/Disparar volant/ezgif.com-crop (7).png" type="Texture" id=22]
+[ext_resource path="res://Personatge(jetpack)/Disparar volant/ezgif.com-crop (13).png" type="Texture" id=23]
+[ext_resource path="res://Personatge(jetpack)/Disparar volant/ezgif.com-crop (9).png" type="Texture" id=24]
+[ext_resource path="res://Personatge(jetpack)/Disparar volant/ezgif.com-crop (10).png" type="Texture" id=25]
+[ext_resource path="res://Personatge(jetpack)/Disparar volant/ezgif.com-crop (12).png" type="Texture" id=26]
+[ext_resource path="res://Personatge(jetpack)/Disparar volant/ezgif.com-crop (11).png" type="Texture" id=27]
+[ext_resource path="res://Personatge(jetpack)/Saltar en estàtic/imageonline/00.png" type="Texture" id=28]
+[ext_resource path="res://Personatge(jetpack)/Saltar en estàtic/imageonline/0,3.png" type="Texture" id=29]
+[ext_resource path="res://Personatge(jetpack)/Saltar en estàtic/imageonline/01.png" type="Texture" id=30]
+[ext_resource path="res://Personatge(jetpack)/volar_idle/idle_v_2.png" type="Texture" id=31]
+[ext_resource path="res://Personatge(jetpack)/Saltar en estàtic/imageonline/0,2.png" type="Texture" id=32]
+[ext_resource path="res://Personatge(jetpack)/volar_idle/idle_v_1.png" type="Texture" id=33]
+[ext_resource path="res://Personatge(jetpack)/Saltar en estàtic/imageonline/0,4.png" type="Texture" id=34]
+[ext_resource path="res://Personatge(jetpack)/volar_idle/idle_v_3.png" type="Texture" id=35]
+[ext_resource path="res://Personatge(jetpack)/volar_idle/idle_v_4.png" type="Texture" id=36]
+[ext_resource path="res://Personatge(jetpack)/Saltar en estàtic/imageonline/0,1.png" type="Texture" id=38]
+[ext_resource path="res://Personatge(jetpack)/Saltar en estàtic/imageonline/11.png" type="Texture" id=39]
+[ext_resource path="res://Personatge(jetpack)/Quedarse quiet de peu/imageonline/00.png" type="Texture" id=42]
+[ext_resource path="res://Personatge(jetpack)/volar_idle/idle_v_7.png" type="Texture" id=43]
+[ext_resource path="res://Personatge(jetpack)/volar_idle/idle_v_9.png" type="Texture" id=44]
+[ext_resource path="res://Personatge(jetpack)/volar_idle/idle_v_10.png" type="Texture" id=45]
+[ext_resource path="res://Personatge(jetpack)/Disparar quiet/imageonline/30.png" type="Texture" id=46]
+[ext_resource path="res://Personatge(jetpack)/volar_idle/idle_v_8.png" type="Texture" id=47]
+[ext_resource path="res://Personatge(jetpack)/Quedarse quiet de peu/imageonline/01.png" type="Texture" id=48]
+[ext_resource path="res://Personatge(jetpack)/Morir volant/ezgif.com-crop (2).png" type="Texture" id=49]
+[ext_resource path="res://Personatge(jetpack)/Morir volant/ezgif.com-crop (4).png" type="Texture" id=50]
+[ext_resource path="res://Personatge(jetpack)/Quedarse quiet de peu/imageonline/10.png" type="Texture" id=51]
+[ext_resource path="res://Personatge(jetpack)/Quedarse quiet de peu/imageonline/02.png" type="Texture" id=52]
+[ext_resource path="res://Personatge(jetpack)/corre_mor/mor_2_c.png" type="Texture" id=53]
+[ext_resource path="res://Personatge(jetpack)/Quedarse quiet de peu/imageonline/12.png" type="Texture" id=54]
+[ext_resource path="res://Personatge(jetpack)/volar_idle/idle_v_5.png" type="Texture" id=55]
+[ext_resource path="res://Personatge(jetpack)/Morir volant/ezgif.com-crop (3).png" type="Texture" id=56]
+[ext_resource path="res://Personatge(jetpack)/corre_mor/mor_1_c.png" type="Texture" id=57]
+[ext_resource path="res://Personatge(jetpack)/Quedarse quiet de peu/imageonline/22.png" type="Texture" id=58]
+[ext_resource path="res://Personatge(jetpack)/Quedarse quiet de peu/imageonline/30.png" type="Texture" id=59]
+[ext_resource path="res://Personatge(jetpack)/Quedarse quiet de peu/imageonline/21.png" type="Texture" id=60]
+[ext_resource path="res://Personatge(jetpack)/Morir volant/ezgif.com-crop (1).png" type="Texture" id=61]
+[ext_resource path="res://Personatge(jetpack)/Quedarse quiet de peu/imageonline/31.png" type="Texture" id=62]
+[ext_resource path="res://Personatge(jetpack)/Disparar quiet/imageonline/40.png" type="Texture" id=63]
+[ext_resource path="res://Personatge(jetpack)/Quedarse quiet de peu/imageonline/11.png" type="Texture" id=64]
+[ext_resource path="res://Personatge(jetpack)/Quedarse quiet de peu/imageonline/40.png" type="Texture" id=65]
+[ext_resource path="res://Personatge(jetpack)/volar_idle/idle_v_6.png" type="Texture" id=66]
+[ext_resource path="res://Personatge(jetpack)/corre_mor/mor_4_c.png" type="Texture" id=67]
+[ext_resource path="res://Personatge(jetpack)/Disparar quiet/imageonline/00.png" type="Texture" id=68]
+[ext_resource path="res://Personatge(jetpack)/Disparar quiet/imageonline/20.png" type="Texture" id=69]
+[ext_resource path="res://Personatge(jetpack)/corre_mor/mor_3_c.png" type="Texture" id=70]
+[ext_resource path="res://Personatge(jetpack)/corre_mor/mor_5_c.png" type="Texture" id=71]
+[ext_resource path="res://Personatge(jetpack)/Disparar quiet/imageonline/10.png" type="Texture" id=72]
+[ext_resource path="res://Personatge(jetpack)/Morir volant/ezgif.com-crop (0).png" type="Texture" id=73]
+[ext_resource path="res://Personatge(jetpack)/Quedarse quiet de peu/imageonline/20.png" type="Texture" id=74]
+[ext_resource path="res://Personatge(jetpack)/Quedarse quiet de peu/imageonline/32.png" type="Texture" id=75]
+[ext_resource path="res://Personatge(jetpack)/Quedarse quiet de peu/imageonline/41.png" type="Texture" id=76]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 15 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 6 ), ExtResource( 9 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 1 ), ExtResource( 7 ), ExtResource( 11 ), ExtResource( 8 ), ExtResource( 5 ), ExtResource( 10 ) ],
+"loop": true,
+"name": "Correr",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 68 ), ExtResource( 72 ), ExtResource( 69 ), ExtResource( 46 ), ExtResource( 63 ) ],
+"loop": true,
+"name": "Disparar quiet",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 18 ), ExtResource( 20 ), ExtResource( 22 ), ExtResource( 21 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 27 ), ExtResource( 26 ), ExtResource( 23 ), ExtResource( 19 ) ],
+"loop": true,
+"name": "Disparar volant",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 42 ), ExtResource( 48 ), ExtResource( 52 ), ExtResource( 51 ), ExtResource( 64 ), ExtResource( 54 ), ExtResource( 74 ), ExtResource( 60 ), ExtResource( 58 ), ExtResource( 62 ), ExtResource( 59 ), ExtResource( 75 ), ExtResource( 65 ), ExtResource( 76 ), ExtResource( 17 ) ],
+"loop": true,
+"name": "Idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 57 ), ExtResource( 53 ), ExtResource( 70 ), ExtResource( 67 ), ExtResource( 71 ) ],
+"loop": true,
+"name": "Morir quiet_corrents",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 73 ), ExtResource( 56 ), ExtResource( 61 ), ExtResource( 49 ), ExtResource( 50 ) ],
+"loop": true,
+"name": "Morir volant",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 33 ), ExtResource( 31 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 66 ), ExtResource( 55 ), ExtResource( 43 ), ExtResource( 47 ), ExtResource( 44 ), ExtResource( 45 ) ],
+"loop": true,
+"name": "Volar",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 28 ), ExtResource( 38 ), ExtResource( 32 ), ExtResource( 29 ), ExtResource( 34 ), ExtResource( 30 ), ExtResource( 39 ) ],
+"loop": false,
+"name": "saltar",
+"speed": 20.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 155.564
+height = 181.491
+
+[node name="Personatge" type="KinematicBody2D"]
+position = Vector2( -4, 4 )
+script = ExtResource( 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+scale = Vector2( 0.231416, 0.231416 )
+frames = SubResource( 1 )
+animation = "Idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, -10 )
+scale = Vector2( 0.231416, 0.231416 )
+shape = SubResource( 2 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+zoom = Vector2( 2, 2 )
