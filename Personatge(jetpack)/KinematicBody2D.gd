@@ -1,6 +1,7 @@
 extends KinematicBody2D
 
 onready var bullet = preload("res://Bullet.tscn")
+var b 
 
 var velocity = Vector2(0,0)
 const SPEED = 300
@@ -36,9 +37,12 @@ func _physics_process(delta):
 
 		velocity = move_and_slide(velocity, Vector2.UP)
 
-func shoot():
-	if Input.is_action_just_pressed("shoot"):
 
+func shoot():
+	if Input.is_action_just_pressed('shoot'):
+		b = bullet.instance()
+		get_parent().add_child(b)
+		b.global_position = $Position2D.global_position
 func _on_Area2D_body_entered(body):
 	get_tree().change_scene("res://level 1.tscn")
 
