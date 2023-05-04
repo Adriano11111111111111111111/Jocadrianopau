@@ -1,5 +1,7 @@
 extends KinematicBody2D
 
+onready var bullet = preload("res://Bullet.tscn")
+
 var velocity = Vector2(0,0)
 const SPEED = 300
 const GRAVITY = 15
@@ -33,6 +35,9 @@ func _physics_process(delta):
 				fuel -= 1
 
 		velocity = move_and_slide(velocity, Vector2.UP)
+
+func shoot():
+	if Input.is_action_just_pressed("shoot"):
 
 func _on_Area2D_body_entered(body):
 	get_tree().change_scene("res://level 1.tscn")
