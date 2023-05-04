@@ -8,7 +8,7 @@ var jet_pack_speed = 35
 var fuel = 100
 
 func _physics_process(delta):
-		$Label2.text = "Fuel:" + str(fuel)
+		$Labe2.text = "Fuel:" + str(fuel)
 		velocity.y = velocity.y + GRAVITY	
 		if Input.is_action_pressed("right"):
 			velocity.x = SPEED
