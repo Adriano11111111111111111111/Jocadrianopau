@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ChipChippy (loop).mp3-14510c75f86f6ed0b4dcd89306cd190e.mp3str"
+
+[deps]
+
+source_file="res://ChipChippy (loop).mp3"
+dest_files=[ "res://.import/ChipChippy (loop).mp3-14510c75f86f6ed0b4dcd89306cd190e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
